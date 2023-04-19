@@ -1,3 +1,5 @@
+# Problems fixed in this fork from the original:
+- fixed command problems with Apple-based computers
 # writeable_root – make your Mac *yours* again!
 
 Since macOS Big Sur the root directory is stored on a signed system volume (SSV), which "features a kernel mechanism that verifies the integrity of the system content at runtime, and rejects any data — code and non-code — that doesn’t have a valid cryptographic signature from Apple".
