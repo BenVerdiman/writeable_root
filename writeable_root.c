@@ -34,7 +34,7 @@ int main(int argc, char *argv[]) {
 	printf("make changes in the set directory and exit the shell when you're done\n");
 	printf("WARNING: system will reboot on exit\n");
 	system("cd ~/temp && sudo `echo $SHELL`");
-	system("sudo bless --folder ~/temp/System/Library/CoreServices --bootefi --create-snapshot");
+	system("sudo bless --mount ~/temp/System/Library/CoreServices/ --setBoot --create-snapshot");
 	system("sudo reboot");
 	
 	return EXIT_SUCCESS;
